@@ -141,7 +141,7 @@ async function experimentInit() {
     win: psychoJS.window,
     name: 'welcome_text',
     text: 'سلام\nروز خوش\n\nممنونم که ما را در انجام این آزمون همراهی می کنید\n با فشردن کلید\n space\nبه صفحه بعد منتقل می شوید.',
-    font: 'Arial',
+    font: 'B Nazanin',
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'Arabic',
@@ -156,10 +156,10 @@ async function experimentInit() {
   Instruction_text = new visual.TextStim({
     win: psychoJS.window,
     name: 'Instruction_text',
-    text: 'در این آزمون شما با  20 برند و شعار برند \nمواجه می شوید\nلطفا آنها را با دقت بخوانید \n\nو در پایان از شما میخواهیم بعد از \nیک وقفه 10 دقیقه ای \nبرند هایی را که مشاهده کرده اید  \nبخاطر بیاورید\n\nبا فشردن کلید\n space\nوارد آزمون می شوید.',
-    font: 'Arial',
+    text: ' سلام و خوش آمدید\n\nشما در حال شرکت در یک آزمون حافظه و \nتوجه هستید. این آزمون شامل دو مرحله است\n\n «مرحله اول: «یادگیری برندها و شعارها\nدر این مرحله، تعدادی برند به\u200cهمراه شعار آن\u200cها\n روی صفحه نمایش داده می\u200cشوند.  \nلطفاً با دقت به برند و شعار نمایش\u200cداده\u200cشده \nنگاه کنید و سعی کنید آن را به خاطر بسپارید.  \nبرخی از برندها ممکن است چند بار تکرار شوند.\n\n هر برند و شعار به مدت چند ثانیه نمایش داده می\u200cشود.\n\n« مرحله دوم: «تشخیص\nپس از پایان مرحله یادگیری، برندها و شعارهایی\n به شما نمایش داده می\u200cشوند.  \nبرخی از آن\u200cها در مرحله یادگیری وجود داشتند و برخی جدید هستند.  \nشما باید با فشردن یکی از دکمه\u200cهای زیر پاسخ دهید:\n\n اگر فکر می\u200cکنید این برند و شعار در مرحله یادگیری وجود داشت\n، کلید Y را فشار دهید.  \n اگر فکر می\u200cکنید قبلاً این برند و شعار را ندیده\u200cاید،\n کلید N را فشار دهید.\n\n سعی کنید با دقت و بدون عجله پاسخ دهید.\n اطلاعات شما فقط برای اهداف پژوهشی استفاده خواهد شد.\n\nبرای شروع آزمون، کلید Space فشار دهید.',
+    font: 'B Nazanin',
     units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], draggable: false, height: 0.03,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'Arabic',
     color: new util.Color('white'),  opacity: undefined,
     depth: 0.0 
