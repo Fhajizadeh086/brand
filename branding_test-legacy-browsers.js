@@ -4,7 +4,7 @@
 
 
 // store info about the experiment session:
-let expName = 'branding test';  // from the Builder filename that created this script
+let expName = 'branding_test';  // from the Builder filename that created this script
 let expInfo = {
     'participant': `${util.pad(Number.parseFloat(util.randint(0, 999999)).toFixed(0), 6)}`,
     'session': '001',
